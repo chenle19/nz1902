@@ -1,0 +1,50 @@
+body{width: 100%;font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;}
+/*nav*/
+.margin {width: 1226px;margin: 0 auto;}
+#topbar{background: #333;width: 100%;}
+#topbar .container{height: 40px;font: 12px/40px "";}
+#topbar .topbar-nav{float: left;display: flex;}
+#topbar .topbar-nav a{}
+#topbar .topbar-nav span{margin: 0 .51em;}
+#topbar .topbar-login{float: right;}
+.topbar-login a.pad{padding: 0 5px;}
+.topbar-login a.pad10{padding: 0 10px;}
+#topbar .topbar-car{float: right;background: #424242;width: 120px;height: 40px;text-align: center;}
+#topbar .container .topbar-car a{display: block;}
+#topbar .container .topbar-car:hover{background:white ;}
+#topbar .container .topbar-car a:hover{display: block;color:#ff6700;}
+#topbar .container .topbar-car i{text-decoration: none;}
+#topbar .container a{color: #B0B0B0;}
+#topbar .container span{color: #424242;} 
+#topbar .container a:hover{ color: white;}
+/*header*/
+header{height: 100px;background: #fff;}
+header .log-box{float: left;width: 55px;margin-top: 22px;height: 55px;transition: .5s;position: relative;overflow: hidden;}
+.after,.before{width: 55px;height: 55px;background:  #ff6700 url(../image/mi-logo.png) no-repeat; background-size: cover;position: absolute;left: 0;top: 0;transition:all .2s;}
+.log-box::before{}
+.after{background:  #ff6700 url(../image//mi-home.png) no-repeat ;background-size: cover;left: -55px;z-index: 1;}
+.log-box:hover  .after{left: 0;} 
+.log-box:hover  .before{left: 55px;} 
+header .nav{float: left;margin-left: 37px;}
+header .nav ul {display: flex;margin-top: 12px;height: 88px; margin-left: 142px;}
+header .nav ul li a{display: inline-block;  color: #333;padding: 28px 10px 39px;font: 16px "";}
+header .nav ul li a:hover{color:  #ff6700}
+header .seach {float: right;margin-top: 25px;width: 296px;position: relative;}
+.seach-btn{width: 50px;height: 48px;border: 1px solid #e0e0e0;background: #fff;position: absolute;top: 0;right: 0;}
+.seach-s .seach-sou{width:223px;height: 48px;border: 1px solid #e0e0e0;outline: none;padding: 0 10px;position: absolute;}
+#header .icon-sousuo{font-size: 30px;}
+.icon-sousuo::before{position: absolute;right: 10px;top: 2px;}
+.seach-title a{color: #757575;background: #eee;padding: 0 5px;margin-right: 10px;display: inline-block;font-size: 12px;z-index: 10;position: absolute;top: 18px;font-weight: 900px;}
+.seach-title .a1{ right: 154px;}
+.seach-title .a2{ right: 50px;}
+.seach-title a:hover{background: #ff6700;color: #fff;}
+#aside{height: 460px;position: relative;}
+#aside img {width: 1226px;height: 460px;position: absolute;}
+.aside-left{width: 231px;height: 420px;padding: 20px 0;background: rgba(105,101,101,.6);color: #fff;position:relative;z-index: 1;}
+.aside-left ul {width: 201px;}
+.aside-left li {width: 201px;height: 42px;}
+.aside-left li a{padding-left: 30px;font:14px/42px "";position: relative;display: block;width: 204px;height: 42px;color: #fff;}
+.aside-left li a::after{content:"";position: absolute;width: 7px;height: 7px;border: 2px solid #fff;border-left: 0;border-bottom: 0;transform: rotate(45deg);position: absolute;right: 25px;top: 18px;} 
+.aside-lunbo {position: absolute;right: 43px;bottom: 26px;}
+.aside-lunbo a{float: left;;border: 2px solid hsla(0,0%,100%,.3);border-radius: 50%;width: 6px;height: 6px;background: rgba(0,0,0,.4);margin: 0 4px;opacity: 1;}
+.aside-lunbo a:hover{border: 2px solid grey;background: #fff;}
