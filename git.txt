@@ -1,0 +1,56 @@
+# 一、开始使用git产生版本信息，并管理
+git init 初始化
+git config --global user.name "chenle19" 第一次配置用户名
+git config --global user.email '332784121@qq.com'第一次配置邮箱
+1. 有文件，如：git笔记.md
+
+
+2. 添加到暂存区
+    - git add 文件名
+    - git add /文件夹名
+    - git add .
+
+3. 上传到版本库
+    - git commit -m "当前版本的说明信息，必须要写"
+
+4. 查看当前项目的状态
+    - git status
+
+5. 查看日志
+    - git log
+
+    - 当版本日志过多，命令行工具，一屏显示不下：
+        - 下键或回车键，显示隐藏信息
+        - q键，退出隐藏状态
+
+    - 在一行显示简短的日志信息：git log --oneline
+    - 显示最近的指定条数的日志信息(n表示数字)：git log -n
+
+6. 撤销或删除操作
+    - 撤销工作区修改：`git checkout -- 文件名`
+    - 撤销暂存区添加：`git reset HEAD 文件名`，`git checkout -- 文件名`
+    - 删除工作区文件：`右键删除`
+
+-----
+
+以上就是本地库中的操作
+
+上传到在线仓库，得有在线仓库
+
+有平台账号，注册，登录
+
+创建。。。
+
+注册github或gitee
+
+
+
+
+
+        
+
+
+
+
+
+
